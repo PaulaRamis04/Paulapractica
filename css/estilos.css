@@ -1,0 +1,221 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  header{
+      background-color: white;
+      height: 100%;
+  }
+main{
+      background-color: #FFE6D1;
+      height:638px;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  header{
+      background-color: white;
+  }
+  footer {
+    background-color: #C4C4C4;
+    position: absolute;
+    bottom: 0;
+    width: 1440%;
+    height: 368px;
+    top: 1800px;
+  }
+  .main{
+      background-color: black;
+  }
+
+.mainsuperior{
+    background-color: #FFE6D1;
+}
+nav{
+    position: absolute;
+    flex-basis: 50%;
+    display: inline-block
+    justify-content: center;
+    padding:10px 20px;
+    left: 630px;
+    letter-spacing:2pt
+    }
+a{
+    color: black;
+}
+button{
+    background-color: #F2624A;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    right: 1000%;
+}
+.boton-comprar{
+    position: absolute;
+  top: 10px;
+   right: 10px;
+    width: 100px;
+    height: 21px;
+}
+.inicio{
+    color: #F2624A;
+}
+
+
+.texto1{
+    position: absolute;
+    font-weight: 400;
+    size: 108px;
+    width: 568px;
+    height: 123px;
+    top: 100px;
+    left: 350px;
+    transition: all 0.5s;
+    transform: scale(2.15);
+    font-family: Arial;
+}
+.texto2{
+    position: absolute;
+    font-weight: 900;
+    size: 36px;
+    width: 686px;
+    height: 51px;
+    top: 45px;
+    left: 730px;
+    font-family: Arial Black;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 51px;
+/* identical to box height */
+
+text-align: center;
+}
+.lorem1{
+    position: absolute;
+    font-weight: 400;
+    size: 16px;
+    width: 568px;
+    height: 76px;
+    top: 228px;
+    left: 24px;
+}
+.imagen1{
+    position: absolute;
+    width: 565px;
+    height: 400px;
+    top: 133px;
+    left: 851px;
+}
+.botonleer{
+    position: absolute;
+    top: 315px;
+    left: 24px;
+    width: 100px;
+    height: 21px;
+}
+
+
+.opcion1{
+    position: absolute;
+    top: 789px;
+    left: 24px;
+}
+.opcion2{
+position: absolute;
+top: 947px;
+left: 24px;
+}
+.opcion3{
+    position: absolute;
+    top: 786px;
+    left: 1083px;
+}
+.opcion4{
+    position: absolute;
+    top: 945px;
+    left: 1083px;
+}
+.imagen2{
+    position: absolute;
+    width: 470px;
+    height: 468px;
+    top: 638px;
+    left: 500px;
+}
+.imagen3{
+    position: absolute;
+    width: 451px;
+    height: 524px;
+    top: 1191px;
+    left: 24px;  
+}
+.lorem2{
+    position: absolute;
+    font-weight: 700;
+    size: 18px;
+    width: 686px;
+    height: 357px;
+    top: 1266px;
+    left: 609px;
+}
+/*FOOTER*/
+.izq{
+    flex-grow: 0.5;
+    display: flex;
+    
+}
+ul{
+    list-style-type: none;
+    flex-basis: 25vw;
+}
+.redes_sociales{
+    padding: 0;
+}
+li{
+    margin-bottom: 1rem;
+}
+.titulo{
+    font-size: 1.125rem;
+    font-weight: bolder;
+}
+.der{
+    flex-grow: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.empresa{
+    position: absolute;
+    top: 81px;
+    left: 24px
+}
+.comunidad{
+    position: absolute;
+    top: 81px;
+    left: 259px;
+}
+.contactar{
+    position: absolute;
+    top: 81px;
+    left: 497px;
+}
+.redes{
+    position: absolute;
+    top: 81px;
+    left: 730px;
+}
+.copi{
+    position: absolute;
+    top: 306px;
+    left: 588px;
+}
+.boton2{
+    border-radius: 15px;
+    border: 3px double 
+}
+.form{
+    position: absolute;
+    top: 87px;
+    left: 965px;
+}
